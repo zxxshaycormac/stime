@@ -16,4 +16,17 @@ stringTimeList := stime.GetStringTime(stime.GetTime(stime.SEVENDAYS))
 
 预设的时间范围有：今天【到现在】、今天【全天】、昨天、近七天、近30天、本月【到现在】、上月
 
+```go
+const (
+	_          = iota
+	YESTERDAY  //昨天1
+	SEVENDAYS  //近七天2
+	THIRTYDAYS //近30天3
+	THISMONTH  //本月4
+	LASTMONTH  //上月5
+	TODAY      //今天6
+	FULLTODAY  //今天全天7
+) //取的时间参数
+```
+
 代码很简单，如果想要修改输出或者调整字符串格式可以自己动手~
