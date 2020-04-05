@@ -1,5 +1,6 @@
 # stime
 包含两个函数
+
 There are two functions
 
 GetTime：获取一个时间范围的第一秒和最后一秒，可用于筛选查询，也可直接作为GetStringTime的参数
